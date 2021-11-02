@@ -1,1 +1,1 @@
-# MZC-Azure-Synapse
+Azure-Synapse
