@@ -18,7 +18,7 @@ GO
 
 COPY INTO dbo.nyc_taxi
 (tipped 1, fareAmount 2, paymentType 3, passengerCount 4, tripDistance 5, tripTimeSecs 6, pickupTimeBin 7)
-FROM '<URL to linked storage account>/test_data.csv'
+FROM '<URL to linked storage account>'
 WITH
 (
     FILE_TYPE = 'CSV',
